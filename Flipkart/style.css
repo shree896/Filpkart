@@ -1,0 +1,59 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #2874f0;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.search-bar {
+    padding: 5px;
+    width: 300px;
+    margin: 0 10px;
+}
+
+.search-button, .cart-icon {
+    padding: 5px 10px;
+    background-color: #ff9f00;
+    border: none;
+    cursor: pointer;
+}
+
+/* Product Section Styling */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
